@@ -1,0 +1,64 @@
+! Colors for URXVT-terminal
+urxvt.color0         : #444444
+! urxvt.color1         : #d78787
+urxvt.color1         : #bc4747
+urxvt.color2         : #afd787
+urxvt.color3         : #f7f7af
+urxvt.color4         : #87afd7
+urxvt.color5         : #d7afd7
+urxvt.color6         : #87afd7
+urxvt.color7         : #e6e6e6
+urxvt.color8         : #0a0a0a
+urxvt.color9         : #df8787
+urxvt.color10        : #afdf87
+urxvt.color11        : #ffffaf
+urxvt.color12        : #87afdf
+urxvt.color13        : #dfafdf
+urxvt.color14        : #87afd7
+urxvt.color15        : #eeeeee
+urxvt.colorBD        : #afafdf
+urxvt.colorIT        : _colorIT
+urxvt.colorUL        : #dfdfaf
+urxvt.foreground     : #d0d0d0
+urxvt.background     : #1c1c1c
+urxvt.cursorColor    : #0683a8
+
+! Colors for XTerm
+XTerm*color0         : #444444
+XTerm*color1         : #d78787
+XTerm*color2         : #afd787
+XTerm*color3         : #f7f7af
+XTerm*color4         : #87afd7
+XTerm*color5         : #d7afd7
+XTerm*color6         : #87afd7 XTerm*color7         : #e6e6e6
+XTerm*color8         : #0a0a0a
+XTerm*color9         : #df8787
+XTerm*color10        : #afdf87
+XTerm*color11        : #ffffaf
+XTerm*color12        : #87afdf
+XTerm*color13        : #dfafdf
+XTerm*color14        : #87afd7
+XTerm*color15        : #eeeeee
+XTerm*colorBD        : #afafdf
+XTerm*colorIT        : _colorIT
+XTerm*colorUL        : #dfdfaf
+XTerm*foreground     : #d0d0d0
+XTerm*background     : #1c1c1c
+XTerm*cursorColor    : #ffaf00
+
+xterm*font:     *-fixed-*-*-*-13-*
+
+URxvt.cutchars: `"'%&()*,;<>@[]{|'"│=`
+URxvt*depth: 32
+URxvt*imLocale: en_US.UTF-8
+URxvt*saveLines: 1200000
+! URxvt.font: xft:Inconsolata for Powerline:size=11
+URxvt*font: xft:Inconsolata:size=11, \
+	    xft:Inconsolata for Powerline:size=11, \
+	    xft:DejaVu Sans Mono for Powerline:size=11
+URxvt.scrollBar: false
+URxvt.letterSpace: -1
+
+urxvt*perl-ext-common: default,matcher,clipboard,font-size
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: False
