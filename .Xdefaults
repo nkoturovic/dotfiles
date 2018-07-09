@@ -15,6 +15,7 @@
  urxvt.color14        : #87afd7
  urxvt.color15        : #eeeeee
  urxvt.colorBD        : #afafdf
+ urxvt.colorIT        : #afafdf
  urxvt.colorUL        : #dfdfaf
  urxvt.foreground     : #d0d0d0
  urxvt.background     : #1c1c1c
@@ -37,6 +38,7 @@
  XTerm*color14        : #87afd7
  XTerm*color15        : #eeeeee
  XTerm*colorBD        : #afafdf
+ XTerm*colorIT        : #afafdf
  XTerm*colorUL        : #dfdfaf
  XTerm*foreground     : #d0d0d0
  XTerm*background     : #1c1c1c
