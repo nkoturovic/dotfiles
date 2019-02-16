@@ -51,11 +51,11 @@ URxvt*depth: 32
 URxvt*imLocale: en_US.UTF-8
 !URxvt*saveLines: 12000
 URxvt.scrollBar: false
-!
+
 urxvt*perl-ext-common: default,matcher,clipboard,font-size
 URxvt.keysym.Shift-Control-V: perl:clipboard:paste
 URxvt.iso14755: False
 
 URxvt*font:                 xft:Inconsolata Nerd Font Mono:style=Medium:size=14:minspace=False, xft:DejaVu Sans:size=14, xft:DejaVu Sans Mono for Powerline:size=14
 URxvt*boldFont:             xft:Inconsolata Nerd Font Mono:style=bold:size=14:minspace=False, xft:DejaVu Sans:size=14
-URxvt*letterSpace: -1
+!URxvt*letterSpace: -1
