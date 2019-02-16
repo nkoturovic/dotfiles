@@ -15,7 +15,7 @@ set t_Co=256
 syntax enable
 set background=dark
 colorscheme xoria256-custom
-highlight Comment cterm=italic gui=italic
+" highlight Comment cterm=italic gui=italic
 
 " ignore annoying swapfile messages
 set shortmess+=A
@@ -116,3 +116,4 @@ map <Leader>j :tabprevious<CR>
 map <Leader>h :tabfirst<CR>
 map <Leader>l :tablast<CR>
 map <Leader>n :tabnew<CR>
+autocmd BufNewFile,BufRead *.ypp set syntax=yacc
