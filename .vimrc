@@ -117,3 +117,5 @@ map <Leader>h :tabfirst<CR>
 map <Leader>l :tablast<CR>
 map <Leader>n :tabnew<CR>
 autocmd BufNewFile,BufRead *.ypp set syntax=yacc
+
+set tabstop=4 shiftwidth=4 expandtab
