@@ -1,0 +1,55 @@
+{
+	"languageserver": {
+      "haskell": {
+        "command": "haskell-language-server-wrapper",
+        "args": ["--lsp"],
+        "rootPatterns": ["*.cabal", "stack.yaml", "cabal.project", "package.yaml", "hie.yaml"],
+        "filetypes": ["haskell", "lhaskell"]
+      },
+      "ccls": {
+	      "command": "ccls",
+	      "filetypes": ["c", "cpp", "objc", "objcpp"],
+	      "rootPatterns": [".ccls", "compile_commands.json", ".vim/", ".git/", ".hg/"],
+	      "initializationOptions": {
+             "cache": {
+               "directory": "/home/kotur/tmp/ccls"
+             }
+           }
+	    },
+
+        "digestif": {
+          "command": "digestif",
+          "filetypes": ["tex", "plaintex", "context"]
+        },
+
+        "bash": {
+            "command": "bash-language-server",
+            "args": ["start"],
+            "filetypes": ["sh"]
+        },
+
+        "efm": {
+          "command": "efm-langserver",
+          "args": ["-c", "/home/kotur/.config/efm-langserver/config.yaml"],
+          "filetypes": ["markdown"]
+        },
+
+        "purescript": {
+          "command": "purescript-language-server",
+          "args": ["--stdio"],
+          "filetypes": ["purs", "purescript"],
+          "rootPatterns": ["bower.json", "psc-package.json", "spago.dhall"]
+        },
+
+        "rust": {
+            "command": "rls",
+            "filetypes": ["rust"],
+            "rootPatterns": ["Cargo.toml"]
+        },
+        "nim": {
+            "command": "/home/kotur/.nimble/bin/nimlsp",
+            "filetypes": ["nim"],
+            "trace.server": "verbose"
+        }
+    }
+}
