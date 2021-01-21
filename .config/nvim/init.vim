@@ -20,7 +20,6 @@ Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-eunuch'
 Plug 'equalsraf/neovim-gui-shim'
 Plug 'vim-python/python-syntax'
-Plug 'soramugi/auto-ctags.vim'
 Plug 'Shougo/echodoc.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'ervandew/supertab'
