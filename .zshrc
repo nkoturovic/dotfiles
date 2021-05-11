@@ -1,9 +1,11 @@
 plugins=(zsh-autosuggestions)
 
 HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=100000
+SAVEHIST=100000
 setopt appendhistory
+setopt hist_ignore_all_dups
+setopt hist_ignore_space
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]

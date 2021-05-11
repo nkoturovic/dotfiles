@@ -1,6 +1,6 @@
 [user]
 	email = necer95@gmail.com
-	name = Nebojsa Koturovic
+	name = Nebojša Koturović
 [core]
 	pager = nvim -R
 [alias]
