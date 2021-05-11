@@ -5,6 +5,10 @@ alias rmt=trash-put
 alias vi=nvim
 alias vim=nvim
 alias gmf='cp ~/Templates/Makefile ./'
+alias less=nvimpager
 cdc () {
     cd $(ec)
 }
+
+export PAGER=nvimpager
+export EDITOR=nvim

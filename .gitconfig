@@ -1,3 +1,15 @@
 [user]
 	email = necer95@gmail.com
 	name = Nebojsa Koturovic
+[core]
+	pager = nvim -R
+[alias]
+    lg = "!git --no-pager log --graph --pretty=format:'%C(green)%h%C(reset) - %C(italic)%C(cyan)%an%C(reset) (%C(yellow)%ar%C(reset))%n%C(bold)%s%C(reset)%n%b'"
+    hist = "!git --no-pager log --graph --pretty=format:'%C(green)%h%C(reset) - %C(italic)%C(cyan)%an%C(reset) (%C(yellow)%ar%C(reset)): %s'"
+    hi = hist
+    cm = commit
+[color]
+	pager = no
+[pager]
+    branch = false
+    log = true

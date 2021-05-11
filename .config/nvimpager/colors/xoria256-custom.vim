@@ -1,0 +1,1 @@
+../../nvim/colors/xoria256-custom.vim
