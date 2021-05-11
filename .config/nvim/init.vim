@@ -107,7 +107,7 @@ endif
 
 "Save foldings
 autocmd BufWinLeave *.* mkview
-autocmd BufWinEnter *.* silent loadview
+autocmd BufWinEnter *.* silent! loadview
 
 " Finding files
 " Search trought all directories
