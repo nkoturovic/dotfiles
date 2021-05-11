@@ -12,3 +12,4 @@ cdc () {
 
 export PAGER=nvimpager
 export EDITOR=nvim
+export SHELL=zsh
