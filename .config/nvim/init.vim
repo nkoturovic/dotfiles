@@ -26,6 +26,8 @@ Plug 'ervandew/supertab'
 Plug 'neovimhaskell/haskell-vim'
 Plug 'rhysd/vim-clang-format'
 Plug 'alaviss/nim.nvim'
+Plug 'powerman/vim-plugin-AnsiEsc'
+Plug 'ziglang/zig.vim'
 
 call plug#end()
 

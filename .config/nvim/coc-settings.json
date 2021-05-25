@@ -16,7 +16,10 @@
              }
            }
 	    },
-
+        "zig": {
+          "command": "/usr/bin/zls",
+          "filetypes": ["zig"]
+        },
         "digestif": {
           "command": "digestif",
           "filetypes": ["tex", "plaintex", "context"]
