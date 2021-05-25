@@ -10,6 +10,9 @@ cdc () {
     cd $(ec)
 }
 
+export TMPDIR=$HOME/tmp
+export TMP=$HOME/tmp
 export PAGER=nvimpager
 export EDITOR=nvim
 export SHELL=zsh
+export CARGO_TARGET_DIR=$HOME/tmp/cargo_target
