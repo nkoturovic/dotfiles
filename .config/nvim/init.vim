@@ -5,7 +5,7 @@ Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
 " ---------- My Plugins ---------
 Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdcommenter'
-Plug 'scrooloose/nerdtree'
+" Plug 'scrooloose/nerdtree'
 Plug 'mbbill/undotree'
 Plug 'tpope/vim-vinegar'
 Plug 'kien/ctrlp.vim'
@@ -26,8 +26,6 @@ Plug 'ervandew/supertab'
 Plug 'neovimhaskell/haskell-vim'
 Plug 'rhysd/vim-clang-format'
 Plug 'alaviss/nim.nvim'
-Plug 'powerman/vim-plugin-AnsiEsc'
-Plug 'ziglang/zig.vim'
 
 call plug#end()
 
@@ -192,7 +190,8 @@ if $TERM == "screen-256color"
 endif
 
 "---- Plugin related configuration -----
-map <C-n> :NERDTreeToggle<CR>
+map <C-n> :CocCommand explorer<CR>
+nnoremap <space>e :CocCommand explorer<CR>
 nnoremap <Leader>u :UndotreeToggle<CR>
 
 let g:SuperTabDefaultCompletionType = "<c-n>" "Supertab from top to bottom
