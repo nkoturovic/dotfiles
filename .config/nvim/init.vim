@@ -5,7 +5,6 @@ Plug 'rstacruz/sparkup', {'rtp': 'vim/'}
 " ---------- My Plugins ---------
 Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdcommenter'
-" Plug 'scrooloose/nerdtree'
 Plug 'mbbill/undotree'
 Plug 'tpope/vim-vinegar'
 Plug 'kien/ctrlp.vim'
