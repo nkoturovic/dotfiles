@@ -16,3 +16,4 @@ export PAGER=nvimpager
 export EDITOR=nvim
 export SHELL=zsh
 export CARGO_TARGET_DIR=$HOME/tmp/cargo_target
+export SUDO_ASKPASS=/usr/bin/lxqt-openssh-askpass
