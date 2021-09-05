@@ -1,50 +1,32 @@
- urxvt.color0         : #444444
- urxvt.color1         : #bc4747
- urxvt.color2         : #afd787
- urxvt.color3         : #f7f7af
- urxvt.color4         : #87afd7
- urxvt.color5         : #d7afd7
- urxvt.color6         : #87afd7
- urxvt.color7         : #e6e6e6
- urxvt.color8         : #0a0a0a
- urxvt.color9         : #df8787
- urxvt.color10        : #afdf87
- urxvt.color11        : #ffffaf
- urxvt.color12        : #87afdf
- urxvt.color13        : #dfafdf
- urxvt.color14        : #87afd7
- urxvt.color15        : #eeeeee
- urxvt.colorBD        : #afafdf
- urxvt.colorIT        : #afafdf
- urxvt.colorUL        : #dfdfaf
- urxvt.foreground     : #d0d0d0
- urxvt.background     : #1c1c1c
- urxvt.cursorColor    : #0683a8
- 
- XTerm*color0         : #444444
- XTerm*color1         : #d78787
- XTerm*color2         : #afd787
- XTerm*color3         : #f7f7af
- XTerm*color4         : #87afd7
- XTerm*color5         : #d7afd7
- XTerm*color6         : #87afd7 
- XTerm*color7         : #e6e6e6
- XTerm*color8         : #0a0a0a
- XTerm*color9         : #df8787
- XTerm*color10        : #afdf87
- XTerm*color11        : #ffffaf
- XTerm*color12        : #87afdf
- XTerm*color13        : #dfafdf
- XTerm*color14        : #87afd7
- XTerm*color15        : #eeeeee
- XTerm*colorBD        : #afafdf
- XTerm*colorIT        : #afafdf
- XTerm*colorUL        : #dfdfaf
- XTerm*foreground     : #d0d0d0
- XTerm*background     : #1c1c1c
- XTerm*cursorColor    : #ffaf00
- 
- xterm*font:     *-fixed-*-*-*-13-*
+Xcursor.size: 16
+Xcursor.size: 16
+Xcursor.theme: Breeze
+Xcursor.size: 16
+
+*color0         : #444444
+*color1         : #d78787
+*color2         : #afd787
+*color3         : #f7f7af
+*color4         : #87afd7
+*color5         : #d7afd7
+*color6         : #87afd7 
+*color7         : #e6e6e6
+*color8         : #777777
+*color9         : #df8787
+*color10        : #afdf87
+*color11        : #ffffaf
+*color12        : #87afdf
+*color13        : #dfafdf
+*color14        : #87afd7
+*color15        : #eeeeee
+*colorBD        : #afafdf
+*colorIT        : #afafdf
+*colorUL        : #dfdfaf
+*foreground     : #d0d0d0
+*background     : #1c1c1c
+*cursorColor    : #ffaf00
+
+xterm*font:     *-fixed-*-*-*-13-*
  
 URxvt.cutchars: `"'%&()*,;<>@[]{|'"│=`
 URxvt*depth: 32
