@@ -6,6 +6,8 @@ alias vi=nvim
 alias vim=nvim
 alias gmf='cp ~/Templates/Makefile ./'
 alias less=nvimpager
+alias la='ls -la'
+alias ll='ls -l'
 cdc () {
     cd $(ec)
 }

@@ -1,5 +1,3 @@
-Xcursor.size: 16
-Xcursor.size: 16
 Xcursor.theme: Breeze
 Xcursor.size: 16
 
@@ -26,8 +24,7 @@ Xcursor.size: 16
 *background     : #1c1c1c
 *cursorColor    : #ffaf00
 
-xterm*font:     *-fixed-*-*-*-13-*
- 
+xterm*font:     *-fixed-*-*-*-14-*
 URxvt.cutchars: `"'%&()*,;<>@[]{|'"│=`
 URxvt*depth: 32
 URxvt*imLocale: en_US.UTF-8
