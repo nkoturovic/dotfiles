@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
 TIMESTAMP=$(date "+%Y-%m-%d-%T")
 
 function backup_file {
@@ -59,11 +60,11 @@ chmod +rx ~/.p10k.zsh
 echo "[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh" >> ~/.zshrc
 rm -r $HOME/fancy-zsh-installer
 printf "
-=============================================================
-You have successfully installed fancy zsh prompt
-=============================================================
+==================================================================
+You have successfully installed fancy zsh prompt & autocomplete
+==================================================================
 Restart your Terminal, in terminal settings/profile set:
-- shell to: zsh
-- font to : MesloLGS NF
-=============================================================
+- shell to : zsh
+- font to  : MesloLGS NF
+==================================================================
 "
