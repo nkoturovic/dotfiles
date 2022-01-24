@@ -60,9 +60,9 @@ echo "[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh" >> ~/.zshrc
 rm -r $HOME/fancy-zsh-installer
 printf "
 =============================================================
-You have successfully installed fancy zsh\n
+You have successfully installed fancy zsh prompt
 =============================================================
-Open/Restart your Terminal, in terminal settings/profile set:
+Restart your Terminal, in terminal settings/profile set:
 - shell to: zsh
 - font to : MesloLGS NF
 =============================================================
