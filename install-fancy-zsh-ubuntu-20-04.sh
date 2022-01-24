@@ -9,11 +9,6 @@ function backup_file {
     fi
 }
 
-backup_file ~/.zshrc
-backup_file ~/powerlevel10k
-backup_file ~/.oh-my-zsh
-backup_file ~/.zsh
-
 # Update package cache
 sudo apt-get update
 
@@ -22,6 +17,11 @@ sudo apt-get -y install zsh
 
 # Install dependencies
 sudo apt -y install curl wget git
+
+backup_file ~/.zshrc
+backup_file ~/powerlevel10k
+backup_file ~/.oh-my-zsh
+backup_file ~/.zsh
 
 # Make 
 mkdir $HOME/fancy-zsh-installer
